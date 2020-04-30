@@ -31,7 +31,10 @@ For a user, Oauth scopes won’t grant any additional privileges. It’ll only l
 POST /api/v2/clients HTTP/1.1
 ...
 
-{"name":"Attacker Client","permissions":"PARTNER","oauth1Enabled":false,"oauth2Enabled":true,"grantTypes":["client_credentials"],"returnUrl":"","scopes":["ROLE_PARTNER"],"oauthOption":"2","persistentSso":false,"role":"PARTNER","withOidcScope":false,"withUserScopes":false,"refreshTokenSeconds":2592000}
+{"name":"Attacker Client","permissions":"PARTNER","oauth1Enabled":false,
+"oauth2Enabled":true,"grantTypes":["client_credentials"],"returnUrl":"",
+"scopes":["ROLE_PARTNER"],"oauthOption":"2","persistentSso":false,"role":"PARTNER",
+"withOidcScope":false,"withUserScopes":false,"refreshTokenSeconds":2592000}
 ```
 
 #### Request to Get Access Token
