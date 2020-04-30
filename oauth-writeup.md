@@ -1,4 +1,4 @@
- ## Creating an Oauth API Client as a Low Privilege User
+## Creating an Oauth API Client as a Low Privilege User
 
 While testing an application for a private program, I decided to look for some ways of performing privilege escalation. This app had multiple permission levels. I was seeing what’s possible as a low level user attempting to perform admin-level API calls. I had an admin account for this site, so I could browse all of the features without a problem. One of the features of this application allows admins to create Oauth API clients for their instance of this application. This is one of the actions I was able to perform as a low level user. What’s the impact of this though? 
 
